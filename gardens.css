@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 222, 168);
+    color: rgb(54, 143, 238);
+    
+}
+ /* .garden-envy is the section holding all the garden information*/
+
+.garden-envy {
+   width: 100%;
+   height: 100%; 
+}
+
+aside {
+    width: 600px;
+    height: 200px;
+    
+    margin-left: 300px;
+}
+
+/* .park-it is a div that groups all the other gardens in css grid */
+
+/*change the grid repeat into something that makes the last column bigger*/
+
+/* washington park and pine hollow pics are too close together, see if the margin-top is the problem*/
+
+.park-it {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 0px;
+    margin: 100px 0 0 100px;
+}
+
+/*ul a, and h2 a is to take out the underline of the hyperlink*/
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+a h2 {
+    text-decoration: none;
+    color: rgb(54, 143, 238);
+}
+
+/*.park-it img {
+    margin-top: 25px;
+}*/
+
+/* .banner is the img going across the screen with the nav */
+
+.banner {
+    width: 100%;
+    height: 150px;
+    opacity: .3;
+}
+
+/* .menu is the ul of the nav bar  .menu-items are li */
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    margin: 0 0 0 100px ;
+}
+
+
+.menu-items {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(114, 139, 73);
+    padding: 10px 0 0 0;
+    margin: 20px 10px 20px 0px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+.menu-items:hover {
+    background-color: rgb(177, 237, 80);
+}
+
+.menu-item:active {
+    background-color: rgb(223, 241, 195)
+}
+
+/* .fest-heading is the h2 for the tulip festival*/
+
+.fest-heading {
+    margin: 100px 0 0 150px;
+}
+
+/* .fest is the tulip festival img */
+
+.fest {
+    width: 855px;
+    height: 511px;
+    margin: 40px 0 0 150px;
+    
+}
+
+/* .tulip is the paragraph for the tulip festival above the picture*/
+.tulip {
+    position: relative;
+    top: 60px;
+    margin: 0 30px 0 30px;
+    padding: 0 5px 0 5px;
+}
+
+/*the the anchor tag and the span holding the albany.com website for the tulip festival information*/
+
+.albany-web {
+    text-decoration: none;
+    color: rgb(54, 143, 238);
+}
+
+span {
+    font-weight: bold;
+}
+
+/* .pic are all img after the tulip festival img*/
+
+.pic {
+    width: 300px;
+    height: 200px;
+}
+
+/* .wp-1, .wp-2, .wp-3 is Washington Park */
+
+.wp-1 {
+    padding-top: 80px;
+}
+
+.wp-3 {
+    padding-right: 25px;
+}
+
+/*k.pha-1, .pha-2, .pha-3 are Pine Hollow*/
+
+.pha-1 {
+    padding-top: 80px;
+}
+
+
+.pha-3 {
+    padding-right: 25px;
+}
+
+/*.tbm-1, .tbm-2, .tbm-3 are Ten Broeck Mansion*/
+
+.tbm {
+    padding-top: 80px;
+}
+
+
+.tbm-3 {
+    padding-right: 25px;
+}
+
+/* .pry-1, .pry-2, .pry-3 are Pruyn House*/
+
+.pry-1 {
+    padding-top: 80px;
+}
+
+
+.pry-3 {
+    padding-right: 25px;
+}
+
+/* .cherry-1, .cherry-2, .cherry-3 are Cherry Hill*/
+
+.cherry-1 {
+    padding-top: 80px;
+}
+
+.cherry-3 {
+    padding-right: 25px;
+}
+
+footer {
+    height: 100px;
+}
