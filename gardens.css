@@ -116,7 +116,7 @@ a h2 {
 .tulip {
     /*position: relative;
     top: 60px;*/
-    margin: 0 30px 0 30px;
+    margin: 0 30px 0 140px;
     padding: 0 5px 0 5px;
 }
 
@@ -125,10 +125,16 @@ a h2 {
 .albany-web {
     text-decoration: none;
     color: rgb(54, 143, 238);
+    font-size: 20px;
 }
 
-span {
+.albany-link {
     font-weight: bold;
+}
+/*.albany-words is the sentence i wanted to display:block;*/
+
+.albany-words {
+    display: block;
 }
 
 /* .pic are all img after the tulip festival img*/
@@ -138,57 +144,52 @@ span {
     height: 200px;
 }
 
-/* .wp-1, .wp-2, .wp-3 is Washington Park */
+/* .wp-2, .wp-3 is Washington Park */
+a .wp-2{
+    color: rgb(54, 143, 238);
+}
 
-.wp-1 {
-    padding-top: 80px;
+a .wp-2:visited {
+    text-decoration: none;
 }
 
 .wp-3 {
     padding-right: 25px;
 }
 
-/*k.pha-1, .pha-2, .pha-3 are Pine Hollow*/
-
-.pha-1 {
-    padding-top: 80px;
-}
-
+/*.pha-2, .pha-3 are Pine Hollow*/
 
 .pha-3 {
     padding-right: 25px;
 }
 
-/*.tbm-1, .tbm-2, .tbm-3 are Ten Broeck Mansion*/
+/*.tbm-2, .tbm-3 are Ten Broeck Mansion*/
 
 .tbm {
     padding-top: 80px;
 }
 
-
 .tbm-3 {
     padding-right: 25px;
 }
 
-/* .pry-1, .pry-2, .pry-3 are Pruyn House*/
-
-.pry-1 {
-    padding-top: 80px;
-}
-
+/* .pry-2, .pry-3 are Pruyn House*/
 
 .pry-3 {
     padding-right: 25px;
 }
 
-/* .cherry-1, .cherry-2, .cherry-3 are Cherry Hill*/
 
-.cherry-1 {
-    padding-top: 80px;
-}
+/* .cherry-1, .cherry-2, .cherry-3 are Cherry Hill*/
 
 .cherry-3 {
     padding-right: 25px;
+}
+
+/*.info is the address and email for all locations to sit on separate lines*/
+
+.info {
+    display: block;
 }
 
 footer {
