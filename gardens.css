@@ -16,28 +16,22 @@ body {
    height: 100%; 
 }
 
-aside {
-    width: 800px;
-    height: 200px;
-    
-    margin-left: 300px;
-}
-
 /* .park-it is a div that groups all the other gardens in css grid */
 
 /*change the grid repeat into something that makes the last column bigger*/
 
-/* washington park and pine hollow pics are too close together, see if the margin-top is the problem*/
-
 .park-it {
     display: grid;
     width: 1000px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px 0px;
-    margin: 100px 0 0 100px;
+    /*grid-template-columns: repeat(2, 1fr); keeps knocking out last row*/
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px 30px;
+    margin: 100px 0 0 150px;
 }
 
 /*ul a, and h2 a is to take out the underline of the hyperlink*/
+
 ul a {
     text-decoration: none;
     color: white;
@@ -48,6 +42,11 @@ h1, h2 {
 }
 
 a h2 {
+    text-decoration: none;
+    color: rgb(54, 143, 238);
+}
+
+a {
     text-decoration: none;
     color: rgb(54, 143, 238);
 }
@@ -74,12 +73,12 @@ a h2 {
     font-size: 20px;
     font-weight: 100;
     color: white;
-    margin: 0 0 0 100px ;
+    margin: 0 0 0 55px ;
 }
 
 
 .menu-items {
-    width: 200px;
+    width: 175px;
     height: 40px;
     background-color: rgb(114, 139, 73);
     padding: 10px 0 0 0;
@@ -109,13 +108,11 @@ a h2 {
     width: 855px;
     height: 511px;
     margin: 40px 0 0 150px;
-    
 }
 
 /* .tulip is the paragraph for the tulip festival above the picture*/
+
 .tulip {
-    /*position: relative;
-    top: 60px;*/
     margin: 0 30px 0 140px;
     padding: 0 5px 0 5px;
 }
@@ -145,6 +142,7 @@ a h2 {
 }
 
 /* .wp-2, .wp-3 is Washington Park */
+
 a .wp-2{
     color: rgb(54, 143, 238);
 }
