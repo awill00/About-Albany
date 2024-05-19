@@ -16,6 +16,15 @@ body {
    height: 100%; 
 }
 
+/* h1 is the Gardens title at the top of the page*/
+
+h1 {
+    margin: 40px 0 0 20px;
+    font-size: 2.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}
+
 /* .park-it is a div that groups all the other gardens in css grid */
 
 /*change the grid repeat into something that makes the last column bigger*/
@@ -26,7 +35,7 @@ body {
     /*grid-template-columns: repeat(2, 1fr); keeps knocking out last row*/
     grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 40px 30px;
+    gap: 50px 50px;
     margin: 100px 0 0 150px;
 }
 
@@ -37,18 +46,17 @@ ul a {
     color: white;
 }
 
-h1, h2 {
-    font-family: sans-serif;
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(80, 62, 12);
 }
 
-a h2 {
-    text-decoration: none;
-    color: rgb(54, 143, 238);
-}
+/*used a tag to get rid of underline for the h2 links, it takes all the lines out of all links so added it back in on .linky */
 
 a {
     text-decoration: none;
-    color: rgb(54, 143, 238);
+    color:rgb(80, 62, 12);
 }
 
 /*.park-it img {
@@ -61,6 +69,7 @@ a {
     width: 100%;
     height: 150px;
     opacity: .3;
+    margin-top: 10px;
 }
 
 /* .menu is the ul of the nav bar  .menu-items are li */
@@ -100,6 +109,7 @@ a {
 
 .fest-heading {
     margin: 100px 0 0 150px;
+    font-size: 1.5em;
 }
 
 /* .fest is the tulip festival img */
@@ -122,11 +132,12 @@ a {
 .albany-web {
     text-decoration: none;
     color: rgb(54, 143, 238);
-    font-size: 20px;
+    
 }
 
 .albany-link {
-    font-weight: bold;
+    color:rgb(78, 80, 80);
+    text-decoration: underline;
 }
 /*.albany-words is the sentence i wanted to display:block;*/
 
@@ -153,6 +164,7 @@ a .wp-2:visited {
 
 .wp-3 {
     padding-right: 25px;
+
 }
 
 /*.pha-2, .pha-3 are Pine Hollow*/
@@ -188,6 +200,20 @@ a .wp-2:visited {
 
 .info {
     display: block;
+}
+
+p {
+    color:rgb(78, 80, 80);
+}
+
+.linky {
+    text-decoration: underline;
+    
+}
+
+span > a {
+    font-weight: bold;
+    color:rgb(78, 80, 80);
 }
 
 footer {
