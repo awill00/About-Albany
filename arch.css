@@ -1,0 +1,46 @@
+* 
+    
+body {
+    background-color: rgb(243, 222, 168);
+    color: black
+}
+    .Albanyskyline2 {
+        width: 100%;
+        height:230px;
+        opacity: .5;
+    }   
+
+
+
+    
+    /*.OneCommercePlaza {
+        width: 716px;
+        height: 828px; 
+     }*/
+
+    .Alfred.E.SmithBuilding {
+        width: 100px;
+        height: 100px;
+
+     }
+
+
+    aside {
+        width: 550px;
+        height: 200px;
+        
+        margin-right: auto 80%;
+    }
+
+    .resize {
+         width: 732px;
+        height: 828x;
+    }
+
+
+   
+
+    .pic {
+        width: 1200px;
+        height: 599px;
+    }
