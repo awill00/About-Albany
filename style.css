@@ -67,20 +67,7 @@ p {
    top: 0;
    left: 0;
     }
-/*--- UNUSED
-h3 {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 20px;
-    color: blue;
-    
-}
-/*--- UNUSED
- .box4 > h3 {
-    position: absolute;
-    top: 15px;
-    left: 320px;
- }
------*/
+
  h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -111,3 +98,19 @@ ul.circle-bullet {
     list-style-type: circle;
 }
 -----*/
+
+/*--- UNUSED
+h3 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+    color: blue; 
+}
+
+/*--- UNUSED
+ .box4 > h3 {
+    position: absolute;
+    top: 15px;
+    left: 320px;
+ }
+-----*/
+
